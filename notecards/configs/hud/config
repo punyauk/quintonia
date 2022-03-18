@@ -1,0 +1,67 @@
+# How often to eat in minutes, default is 60 i.e. approx once an hour
+EAT_INTERVAL=60
+#
+# How far to scan for items
+SENSOR_DISTANCE=40
+#
+# How far to scan for animals
+SCAN_RANGE=96
+#
+# Set to 1 for effects (animations, flies etc) or 0 to turn them off
+EFFECTS=1
+#
+# If effects =1, set the volume (1 to 10 where 10 is loudest)
+VOLUME=10
+#
+# Set to 1 to have all status messages echoed to local chat, or 0 to turn off
+ECHO_CHAT=0
+#
+# Offset to rez items
+REZ_POSITION=<1.0, 1.0, -0.5>
+#
+# Set to 1 to require activities to keep healthy
+HEALTH_MODE=1
+#
+# Default language
+LANG=en-GB
+#
+# ===== Optional overrides =====
+#
+# Name of the provisions box
+BOX_NAME=Provisions Box
+#
+# Name of 'Wood' item (without the SF part) for using with provisions box
+WOOD_NAME=Wood
+#
+# Name of 'Energy' item (without the SF part) for storing
+ENERGY_NAME=kWh
+#
+# Normally products have the prefix "SF " but if you have a different one, set it here
+SF_PREFIX=SF
+#
+# If you are having problems with your HUD making a connection to Quintonia, try changing to HTTPS=0
+USE_HTTPS=0
+#
+# Set to 0 to disable the points system
+USE_POINTS=1
+#
+# Set to 1 to check the age range of items before using them
+USE_AGE=0
+#
+# If above is set, this is the age which can be   Adult   Child   Baby   Sim    or an actual number between 1 & 10
+BASE_AGE=Baby
+#
+# Set to 1 to enable 'death mode' if your health drops to zero
+ALLOW_DEATH=0
+#
+# Set to 0 if this HUD is worn by critter rather than you
+MY_HUD=1
+#
+# Name of attached critter e.g. Baby, Monkey etc
+CRITTER=Baby
+#
+# List of items critter can go to when not attached (omit 'SF' part)   On initial rez will go to first one in list.
+TARGETS=Cot;High Chair;Baby Changer
+#
+# Set to 1 to allow extra os functions such as osDropAttachment()
+USE_OSEXTRA=1
